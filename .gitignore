@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment / secrets
+.env
+.env/
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Scraped/generated data
+# Keep the sample CSV if you want it visible on GitHub.
+# Ignore future large raw exports if needed:
+data_large/
